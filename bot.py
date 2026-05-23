@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import os
 
-TOKEN = "8675015789:AAFa81wbN5C8LR65NwYw8llxTwYdJHU1-EY"
+TOKEN = "8877648136:AAHHzSPLa93Mf_-PSyyPprECskTV3-0kLa4"
 if not TOKEN:
     print("Ошибка: Переменная TELEGRAM_TOKEN не найдена!")
     exit()
