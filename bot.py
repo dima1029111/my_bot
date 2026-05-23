@@ -42,16 +42,7 @@ def handle_callback(call):
 from flask import Flask
 import threading
 
-app = Flask('')
 
-@app.route('/')
-def home():
-    return "Бот работает!"
-
-def run():
-    app.run(host='0.0.0.0', port=8080)
-
-threading.Thread(target=run).start()
 
 if __name__ == "__main__":
     print("🤖 Бот запущен...")
